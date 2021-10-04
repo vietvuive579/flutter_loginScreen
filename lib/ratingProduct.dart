@@ -57,7 +57,7 @@ class _RatingBoxState extends State<RatingBox> {
                   color: Colors.red[500], 
                   onPressed: _setRatingAsThree, 
                   iconSize: _size, 
-               ), 
+               ), //...
             ), 
          ], 
       ); 
