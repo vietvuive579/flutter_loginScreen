@@ -131,7 +131,7 @@ class _LoginScreenState extends State<LoginScreen> {
         elevation: 5.0,
         onPressed: () {
           Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const changeScreen()));
+              MaterialPageRoute(builder: (context) => changeScreen()));
         },
         padding: EdgeInsets.all(15.0),
         shape: RoundedRectangleBorder(
@@ -204,14 +204,14 @@ class _LoginScreenState extends State<LoginScreen> {
           _buildSocialBtn(
             () => print('Login with Facebook'),
             const AssetImage(
-              'assets/logos/facebook.jpg',
+              'assets/logo/facebook.jpg',
             ),
           ),
           _buildSocialBtn(
             // ignore: avoid_print
             () => print('Login with Google'),
             const AssetImage(
-              'assets/logos/google.jpg',
+              'assets/logo/google.jpg',
             ),
           ),
         ],

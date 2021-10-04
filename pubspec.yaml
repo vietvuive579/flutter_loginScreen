@@ -87,3 +87,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets: 
+   - assets/product/floppyDisk.jpg
+   - assets/product/iphone.jpg
+   - assets/product/laptop.jpg
+   - assets/product/penDrive.jpg
+   - assets/product/tablet.jpg
+   - assets/product/tablet.jpg
+   - assets/logo/facebook.jpg
+   - assets/logo/google.jpg
